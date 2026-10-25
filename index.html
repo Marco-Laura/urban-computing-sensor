@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycling vibration collector</title>
+  <style>
+    body { font: 18px system-ui, sans-serif; max-width: 600px; margin: 30px auto; padding: 0 16px; }
+    button { font: inherit; padding: 14px; margin: 6px 4px 6px 0; }
+  </style>
+  <script src="collector.js" defer></script>
+</head>
+<body>
+  <h1>Cycling Vibration Collector</h1>
+  <p>Keep browser open and phone screen awake</p>
+  <button id="enable">Enable sensors</button>
+  <button id="start" disabled>Start</button>
+  <button id="stop" disabled>Stop</button>
+  <button id="export" disabled>Export CSV</button>
+  <p id="status" role="status">Enable sensors first.</p>
+  <p>Recorded readings: <span id="count">0</span></p>
+  <p>Export after each recording</p>
+  <p>Retarting the collector, refreshing or closing the page deletes recorded data.</p>
+</body>
+</html>
