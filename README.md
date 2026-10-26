@@ -1,6 +1,6 @@
-# Cycling Vibration Collector
+# Cycling Acceleration Data Collector
 
-A browser based collector that records iPhone acceleration data to investigate cycling vibration.
+A browser based collector that records acceleration data from a bicycle mounted iPhone for exploring vibration during cycling.
 It is implemented in HTML + JavaScript and was tested using Safari on an iPhone.
 
 
@@ -17,5 +17,5 @@ It is implemented in HTML + JavaScript and was tested using Safari on an iPhone.
 4. Save and export the dataset to your device
 5. Repeat as often as required. Starting again will replace the previous recording
 
-Refreshing or closing the page will delete unexported dataset.
+Refreshing or closing the page will delete the unexported dataset.
 Switching away from Safari will stop the recording.
